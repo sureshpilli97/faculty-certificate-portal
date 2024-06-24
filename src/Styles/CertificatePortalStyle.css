@@ -1,0 +1,15 @@
+.data-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100% ;
+  padding: 2rem;
+}
+
+.links{
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}

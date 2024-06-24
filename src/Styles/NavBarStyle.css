@@ -1,0 +1,39 @@
+.nav {
+  padding-top: 4rem;
+}
+
+.collegeLogo {
+  height: 4rem;
+}
+
+#nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#log-out{
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#nav-links {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .collegeLogo {
+    height: 3rem;
+    width: 12rem;
+  }
+
+}

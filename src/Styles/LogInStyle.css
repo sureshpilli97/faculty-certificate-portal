@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    gap: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.login-container:hover {
+    transform: scale(1.0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 499px) {
+    .login-container {
+        width: 80vw;
+    }
+
+}
